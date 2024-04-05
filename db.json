@@ -1,0 +1,243 @@
+{
+  "user": [
+    {
+      "id": "5a90",
+      "firstName": "avantika",
+      "lastName": "kumari",
+      "email": "av@gmail.com",
+      "phone": "8744826796",
+      "password": "12345",
+      "confPassword": "12345"
+    },
+    {
+      "id": "ffe0",
+      "firstName": "avantika",
+      "lastName": "kumari",
+      "email": "av@gmail.com",
+      "phone": "8744826796",
+      "password": "12345",
+      "confPassword": "12345"
+    },
+    {
+      "id": "5b74",
+      "firstName": "avantika",
+      "lastName": "kumari",
+      "email": "av@gmail.com",
+      "phone": "8744826796",
+      "password": "12345",
+      "confPassword": "12345"
+    },
+    {
+      "id": "7130",
+      "firstName": "sriti",
+      "lastName": "singh",
+      "email": "s@gmail.com",
+      "phone": "123456789",
+      "password": "12345",
+      "confPassword": "12345"
+    },
+    {
+      "id": "1955",
+      "firstName": "ankush",
+      "lastName": "kumar",
+      "email": "ak@gmail.com",
+      "phone": "123456789",
+      "password": "12345",
+      "confPassword": "12345"
+    },
+    {
+      "id": "4020",
+      "firstName": "harshal",
+      "lastName": "singh",
+      "email": "har@gmail.com",
+      "phone": "123456789",
+      "password": "12345",
+      "confPassword": "12345"
+    },
+    {
+      "firstName": "Salman",
+      "lastName": "Khan",
+      "email": "salman@gmail.com",
+      "phone": "7417999590",
+      "password": "12345",
+      "confPassword": "12345",
+      "id": "3cJxUJB"
+    }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Fiorella",
+      "address": {
+        "place": "2238 Polk St",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "country": "India"
+      },
+      "tags": [
+        "Chines",
+        "Vegetarian",
+        "Pizza",
+        "10%"
+      ],
+      "image": "restroimg1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Taj Hotel",
+      "address": {
+        "place": "2238 Polk St",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "country": "India"
+      },
+      "tags": [
+        "Italian",
+        "Vegetarian",
+        "Pizza",
+        "10%"
+      ],
+      "image": "restroimg2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Leela Place",
+      "address": {
+        "place": "2238 Polk St",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "country": "India"
+      },
+      "tags": [
+        "Italian",
+        "Vegetarian",
+        "Pizza",
+        "10%"
+      ],
+      "image": "restroimg3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sukhdev",
+      "address": {
+        "place": "2238 Polk St",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "country": "India"
+      },
+      "tags": [
+        "Italian",
+        "Vegetarian",
+        "Pizza",
+        "10%"
+      ],
+      "image": "restroimg1.jpg"
+    }
+  ],
+  "foodmenu": [
+    {
+      "id": 1,
+      "name": "Spicy Chicken Tikka",
+      "place": "New Delhi",
+      "description": "Tender pieces of chicken marinated in a spicy yogurt-based marinade, skewered, and grilled to perfection. Served with mint chutney.",
+      "tags": {
+        "tag1": "Indian",
+        "tag2": "Appetizer",
+        "tag3": "Spicy"
+      },
+      "price": 180,
+      "image": "foodItem1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Truffle Mushroom Risotto",
+      "place": "Milan",
+      "description": "Creamy Arborio rice cooked with mushrooms, onions, garlic, and Parmesan cheese, finished with truffle oil for an indulgent flavor.",
+      "tags": {
+        "tag1": "Italian",
+        "tag2": "Main Course",
+        "tag3": "Vegetarian"
+      },
+      "price": 220,
+      "image": "foodItem2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sushi Platter",
+      "place": "Tokyo",
+      "description": "Assorted selection of fresh nigiri and maki sushi, including tuna, salmon, yellowtail, and avocado rolls. Served with pickled ginger, wasabi, and soy sauce.",
+      "tags": {
+        "tag1": "Japanese",
+        "tag2": "Appetizer",
+        "tag3": "Seafood"
+      },
+      "price": 250,
+      "image": "foodItem3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Crispy Duck Confit",
+      "place": "Paris",
+      "description": "Tender duck leg confit seasoned with herbs and spices, slow-cooked until crispy and golden brown. Served with braised red cabbage and orange gastrique.",
+      "tags": {
+        "tag1": "French",
+        "tag2": "Main Course",
+        "tag3": "Poultry"
+      },
+      "price": 320,
+      "image": "foodItem1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mango Sticky Rice",
+      "place": "Bangkok",
+      "description": "Sweet glutinous rice infused with coconut milk, served with ripe mango slices and a drizzle of coconut cream. A delightful Thai dessert.",
+      "tags": {
+        "tag1": "Thai",
+        "tag2": "Dessert",
+        "tag3": "Fruit"
+      },
+      "price": 120,
+      "image": "foodItem2.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Beef Wellington",
+      "place": "London",
+      "description": "Tender beef fillet wrapped in puff pastry with mushroom duxelles and foie gras, baked to perfection. Served with red wine sauce and roasted vegetables.",
+      "tags": {
+        "tag1": "British",
+        "tag2": "Main Course",
+        "tag3": "Beef"
+      },
+      "price": 350,
+      "image": "foodItem3.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Pad Thai",
+      "place": "Bangkok",
+      "description": "Stir-fried rice noodles with shrimp, tofu, bean sprouts, egg, and peanuts, flavored with tamarind sauce and lime. Garnished with cilantro and lime wedges.",
+      "tags": {
+        "tag1": "Thai",
+        "tag2": "Main Course",
+        "tag3": "Seafood"
+      },
+      "price": 150,
+      "image": "foodItem1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Tiramisu",
+      "place": "Rome",
+      "description": "Classic Italian dessert made with layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa powder. Light, creamy, and utterly delicious.",
+      "tags": {
+        "tag1": "Italian",
+        "tag2": "Dessert",
+        "tag3": "Coffee"
+      },
+      "price": 100,
+      "image": "foodItem2.jpg"
+    }
+  ]
+}

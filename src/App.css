@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.hero-banner {
+    height: 500px;
+    background-size: cover;
+    padding: 40px;
+}
+.card {
+  margin-bottom: 24px;
+  -webkit-box-shadow: 0 2px 3px #e4e8f0;
+  box-shadow: 0 2px 3px #e4e8f0;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #eff0f2;
+  border-radius: 8px;
+}
+.hero-text {
+    margin-top: 6rem;
+}
+.searchInputWrapper {
+    position: relative;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  
+  .searchInput {
+    width: 100%;
+    height: 2.9rem;
+    padding: 0 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  ::placeholder {
+    color: #a1a1a1;
+  }
+  
+  /* hide the placeholder text on focus */
+  :focus::placeholder {
+    text-indent: -999px
+  }
+  
+  .searchInput:focus {
+    outline: none;
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .searchInputIcon {
+    position: absolute;
+    right: 1.2rem;
+    top: 0.9rem;
+    color: #a1a1a1;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .container:focus-within > 
+  .searchInputWrapper > .searchInputIcon {
+    right: 0.2rem;
+  }
+
+  .mostlyordered {
+    border-radius: 16px;
+    object-fit: cover;
+    width: 260px;
+    height: 200px;
+  }
+
+
+  /* RESTAURANT DEISGNS */
+  .__area {
+    color: #7c7671;
+    margin-bottom: 30px;  
+}
+  
+  .__card {
+    max-width: 350px;
+    margin: auto;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    color: unset;
+  }
+  .__card:hover {
+    color: unset;
+    text-decoration: none;
+  }
+  .__img {
+    border-radius: 10px;
+  }
+  
+  .__favorit {
+    background-color: #fff;
+    border-radius: 8px;
+    color: #fc9d52;
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    padding: 3px 4px; 
+    font-size: 22px;
+    line-height: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    z-index: 1;
+    border: 0;
+  }
+  .__favorit:hover {
+    background-color: #fc9d52;
+    color: #fff;
+    text-decoration: none;
+  }
+  .__card_detail {
+    box-shadow: 0 4px 15px rgba(175,77,0,0.13);
+    padding: 13px;
+    border-radius: 8px;
+    margin: -30px 10px 0;
+    position: relative;
+    z-index: 2;
+    background-color: #fff; 
+  }
+  .__card_detail h4 {
+    color: #474340;
+    line-height: 100%;
+    font-weight: bold;
+  }
+  .__card_detail p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+  }
+  .__type span {
+    background-color: #feefe3;
+    padding: 5px 10px 7px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #fc9d52;
+    font-weight: bold;
+    line-height: 100%;
+  }
+  .__detail {
+    margin-top: 5px;
+  }
+  .__detail i {
+    font-size: 21px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .__detail i:nth-child(3) {
+    margin-left: 15px;
+  }
+  .__detail span {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2px;
+  }
+
+  /* RATINGS */
+  h1.testimonials-header{
+    font-size: 18pt;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 6px;
+}
+section#home-reviews{
+	margin: 50px 6px 70px 6px;
+	padding: 100px 0;
+    color: #5d564f;
+    background: #f7f7f7;
+}
+section#home-reviews h2{
+	font-size: 1.75rem;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.fa-quote-left{
+	padding-right: 10px;
+}
+.fa-quote-right{
+	padding-left: 10px;
+}
+section#home-reviews p{
+	font-size: 13pt;
+}
+.stars{
+	color: #BB8B41;
+}
+
+        
+        /* Main image - left */
+        .main-img img {
+          width: 100%;
+      }
+
+      /* Preview images */
+      .previews img {
+          width: 100%;
+          height: 140px;
+      }
+
+      .main-description .category {
+          text-transform: uppercase;
+          color: #0093c4;
+      }
+
+      .main-description .product-title {
+          font-size: 2.5rem;
+      }
+
+      .old-price-discount {
+          font-weight: 600;
+      }
+
+      .new-price {
+          font-size: 2rem;
+      }
+
+      .details-title {
+          text-transform: uppercase;
+          font-weight: 600;
+          font-size: 1.2rem;
+          color: #757575;
+      }
+
+      .buttons .block {
+          margin-right: 5px;
+      }
+
+      .quantity input {
+          border-radius: 0;
+          height: 40px;
+
+      }
+
+
+      .custom-btn {
+        text-transform: capitalize;
+        background-color: #F44336;
+        color: white;
+        width: 150px;
+        height: 40px;
+        border-radius: 4px;
+      }
+
+      .custom-btn:hover {
+          background-color: #0093c4 !important;
+          font-size: 18px;
+          color: white !important;
+      }
+
+      .similar-product img {
+          height: 400px;
+      }
+
+      .similar-product {
+          text-align: left;
+      }
+
+      .similar-product .title {
+          margin: 17px 0px 4px 0px;
+      }
+
+      .similar-product .price {
+          font-weight: bold;
+      }
+
+      .questions .icon i {
+          font-size: 2rem;
+      }
+
+      .questions-icon {
+          font-size: 2rem;
+          color: #0093c4;
+      }
+
+      .cart-box {
+        background-color: #d3d3d333;
+        padding: 0 5rem;
+      }
+
+      
+
+
+      /* Small devices (landscape phones, less than 768px) */
+      @media (max-width: 767.98px) {
+
+          /* Make preview images responsive  */
+          .previews img {
+              width: 100%;
+              height: auto;
+          }
+
+      }
+
+
